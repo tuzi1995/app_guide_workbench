@@ -1,0 +1,244 @@
+{
+  "project_id": "app_guide",
+  "title": "自检图",
+  "updated_at": "2026-11-16T19:58:10+08:00",
+  "nodes": [
+    {
+      "action": "",
+      "affected_paths": [
+        {
+          "id": "p1",
+          "long_image_url": "/media/exports/p1/41/long.png",
+          "message": "已自动重新生成拼接长图和文字步骤文档",
+          "rendered": true,
+          "title": "发现查看订单优惠卷",
+          "version": 41
+        },
+        {
+          "id": "p2",
+          "long_image_url": "/media/exports/p2/3/long.png",
+          "message": "已自动重新生成拼接长图和文字步骤文档",
+          "rendered": true,
+          "title": "预约安装",
+          "version": 3
+        }
+      ],
+      "changed": false,
+      "description": "",
+      "diff_ratio": 0,
+      "id": "n1",
+      "screenshot": "0857f00f6bbe9d86.png",
+      "screenshot_prev": "",
+      "screenshot_version": 2,
+      "title": "发现",
+      "x": -254,
+      "y": 200
+    },
+    {
+      "action": "点击右上角三个点",
+      "affected_paths": [],
+      "changed": false,
+      "description": "全部商品：可选择扫地机、洗地机、洗衣机、干衣机、吸尘器、配件进行购买\n购物车、我的订单、我的奖品（可查看获得的奖品，包含：实物、优惠券、积分、石享值）、优惠券、商城中心（可在商城中心查看：我的订单、退款/售后、购物车、收货地址、优惠券、我的奖品、我的反馈）",
+      "diff_ratio": 0,
+      "id": "n2",
+      "screenshot": "ad4c8ce85c24b5b9.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "title": "更多",
+      "x": 198,
+      "y": -182
+    },
+    {
+      "action": "点击右上角四叶草图标",
+      "changed": false,
+      "description": "",
+      "diff_ratio": 0,
+      "id": "n3",
+      "screenshot": "8ee806d05a0a02c9.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "title": "全部商品",
+      "x": 199,
+      "y": 198,
+      "affected_paths": []
+    },
+    {
+      "id": "n4",
+      "title": "服务大厅",
+      "action": "",
+      "description": "",
+      "screenshot": "0b1544789eb6a05f.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "changed": false,
+      "diff_ratio": 0.0,
+      "x": 197,
+      "y": 593
+    },
+    {
+      "id": "n5",
+      "title": "扫地机SN码查询",
+      "action": "",
+      "description": "",
+      "screenshot": "b52ccbc600839672.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "changed": false,
+      "diff_ratio": 0.0,
+      "x": 506,
+      "y": 596
+    },
+    {
+      "id": "n6",
+      "title": "洗衣机SN码查询",
+      "action": "",
+      "description": "",
+      "screenshot": "63a9ab07cf9b3c73.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "changed": false,
+      "diff_ratio": 0.0,
+      "x": 798,
+      "y": 596
+    },
+    {
+      "id": "n7",
+      "title": "预约安装",
+      "action": "",
+      "description": "",
+      "screenshot": "27d971bdc21cd953.png",
+      "screenshot_prev": "",
+      "screenshot_version": 1,
+      "changed": false,
+      "diff_ratio": 0.0,
+      "x": 1083,
+      "y": 599
+    }
+  ],
+  "edges": [
+    {
+      "id": "bbfb7c9c-a256-4d3e-b045-a71c1748ecbc",
+      "label": "",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e290a7e3-a4d2-401b-a09f-62371f2067ff",
+      "source": "n1",
+      "target": "n3",
+      "label": ""
+    }
+  ],
+  "paths": [
+    {
+      "annotation_invalidated_nodes": [],
+      "annotations": {
+        "n1": [],
+        "n2": [
+          {
+            "type": "rect",
+            "x": 0.8307021566580355,
+            "y": 0.05769703310741749,
+            "width": 0.16929784334196452,
+            "height": 0.06261347799002964,
+            "color": "#ef3038",
+            "strokeWidth": 4
+          }
+        ]
+      },
+      "description": "",
+      "id": "p1",
+      "kb_managed_image_urls": [
+        "http://127.0.0.1:8095/media/exports/p1/21/long.png"
+      ],
+      "kb_published_at": "2026-11-13T11:18:54+08:00",
+      "kb_published_result": {
+        "image_urls": [
+          "http://127.0.0.1:8095/media/exports/p1/21/long.png"
+        ],
+        "message": "已写入知识库",
+        "question_wiki_id": "p1",
+        "success": true,
+        "updated_fields": [
+          "answer",
+          "image_urls"
+        ]
+      },
+      "kb_wiki_id": "ICWIKI202611130001",
+      "long_image_path": "/Users/tuzi/个人项目/One/app_guide_workbench/data/exports/p1/57/long.png",
+      "long_image_url": "/media/exports/p1/57/long.png",
+      "node_ids": [
+        "n1",
+        "n2"
+      ],
+      "product_category_name": "扫地机",
+      "product_name": "",
+      "question": "APP 怎么登录？",
+      "render_version": 57,
+      "rendered_at": "2026-11-16T18:15:17+08:00",
+      "stale": false,
+      "step_count": 2,
+      "title": "发现查看订单优惠卷",
+      "annotations_stale": false
+    },
+    {
+      "annotation_invalidated_nodes": [],
+      "annotations": {},
+      "description": "",
+      "id": "p2",
+      "kb_published_at": null,
+      "kb_published_result": null,
+      "kb_wiki_id": "p2",
+      "long_image_path": "/Users/tuzi/个人项目/One/app_guide_workbench/data/exports/p2/4/long.png",
+      "long_image_url": "/media/exports/p2/4/long.png",
+      "node_ids": [
+        "n1",
+        "n4",
+        "n5",
+        "n6",
+        "n7"
+      ],
+      "product_category_name": "",
+      "product_name": "",
+      "question": "",
+      "render_version": 4,
+      "rendered_at": "2026-11-16T18:14:48+08:00",
+      "stale": true,
+      "step_count": 1,
+      "title": "预约安装"
+    },
+    {
+      "id": "p3",
+      "title": "查看全部商品",
+      "description": "",
+      "node_ids": [
+        "n1",
+        "n3"
+      ],
+      "question": "",
+      "product_category_name": "",
+      "product_name": "",
+      "kb_wiki_id": "p3",
+      "annotations": {
+        "n3": [
+          {
+            "type": "rect",
+            "x": 0.7244648790699718,
+            "y": 0.07213166205612002,
+            "width": 0.1324236467727885,
+            "height": 0.04807805779422471,
+            "color": "#ef3038",
+            "strokeWidth": 4
+          }
+        ]
+      },
+      "annotation_invalidated_nodes": [],
+      "annotations_stale": false,
+      "stale": false,
+      "render_version": 5,
+      "long_image_url": "/media/exports/p3/5/long.png",
+      "long_image_path": "/Users/tuzi/个人项目/One/app_guide_workbench/data/exports/p3/5/long.png",
+      "rendered_at": "2026-11-16T18:15:57+08:00"
+    }
+  ]
+}
