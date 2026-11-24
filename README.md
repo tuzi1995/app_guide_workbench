@@ -11,7 +11,7 @@ APP 改版时**只替换那一张截图**：系统自动检测到该节点图片
 ## 快速开始
 
 ```bash
-cd /Users/tuzi/个人项目/One/app_guide_workbench
+cd "app_guide_workbench"
 ./start.sh
 ```
 
@@ -22,7 +22,7 @@ cd /Users/tuzi/个人项目/One/app_guide_workbench
 | 前端工作台 | http://localhost:5178/ | 三栏布局：素材池 / 路径画布 / 路径面板 |
 | 后端 API | http://127.0.0.1:8095/api/health | Flask，前端通过 Vite 代理访问 |
 | 媒体服务 | http://127.0.0.1:8095/media/... | 截图与导出长图的对外链接 |
-| KnowBase Hub | http://127.0.0.1:8085/ | 推送目标，账号 `admin` / 密码 `123456` |
+| KnowBase Hub | http://127.0.0.1:8085/ | 推送目标；请通过本机配置获取/管理账号凭据，不要将密码写入文档 |
 
 ## 目录
 
@@ -76,3 +76,8 @@ backend/.venv/bin/python backend/scripts/smoke.py              # 端到端联调
 
 - `/Volumes/ORICO/个人笔记记录/电子脑洞仓库/55_KnowBaseHub_8085/APP操作指引自动维护/20261112_APP操作指引工作台技术方案.md`
 - `/Volumes/ORICO/个人笔记记录/电子脑洞仓库/55_KnowBaseHub_8085/APP操作指引自动维护/20261112_APP操作指引工作台使用说明与交付记录.md`
+
+## 子项目说明
+
+- 后端说明：[`backend/README.md`](backend/README.md)
+- 前端说明：[`frontend/README.md`](frontend/README.md)
